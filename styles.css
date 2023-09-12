@@ -56,10 +56,9 @@ a, a:hover, a:visited, a:active {
   justify-content: flex-start;
   align-items: center;
   padding: 100px 0;
-  background-image: url(../images/s1-bg.jpg);
+  background-image: url(/images/s1-bg.jpg);
   background-repeat: no-repeat;
   background-size: fill;
-  
 }
 
 .s1-text{
