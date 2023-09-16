@@ -5,6 +5,7 @@ body {
   justify-content: center;
   margin: 0;
   width: 100%;
+  background-color: #c9daf1;
 }
 
 body::-webkit-scrollbar{
@@ -18,14 +19,20 @@ body::-webkit-scrollbar{
 }
 
 .header {
+  width: auto;
   color: #F9FaF8;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  padding: 0 90px;
+  padding: 0 60px;
 }
 
+.h-title {
+  font-family: 'Charm', cursive;
+  font-size: 20px;
+  
+}
 
 .logo {
   height: 80px;
@@ -38,6 +45,7 @@ body::-webkit-scrollbar{
   gap: 15px;
   list-style: none;
   color: #ffffff;
+  font-size: 18px;
 }
 
 a, a:hover, a:visited, a:active {
@@ -66,7 +74,7 @@ a, a:hover, a:visited, a:active {
   width: 550px;
   height: auto;
   padding: 15px;
-  margin-left: 15%;
+  margin: 0 15%;
   background-color: #293444d3;
   border-radius: 8px;
 }
@@ -108,6 +116,7 @@ a, a:hover, a:visited, a:active {
   font-size: 36px;
   font-weight: 800;
   color: #063e8b;
+  text-align: center;
 }
 
 .boxes {
@@ -129,8 +138,8 @@ a, a:hover, a:visited, a:active {
 .s2-img {
   border: 1px solid;
   color: #4545462a;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 8%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -138,7 +147,7 @@ a, a:hover, a:visited, a:active {
 .img-info {
   text-align: center;
   margin-top: 8px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 200;
   color: #165bbb;
 }
