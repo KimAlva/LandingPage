@@ -19,8 +19,7 @@ body::-webkit-scrollbar{
 }
 
 .header {
-  width: auto;
-  color: #F9FaF8;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -31,18 +30,21 @@ body::-webkit-scrollbar{
 .h-title {
   font-family: 'Charm', cursive;
   font-size: 20px;
-  
+  width: 250px;
+  flex-grow: 1;
+  text-align: center;
 }
 
 .logo {
   height: 80px;
+  padding-right: 7%;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   gap: 15px;
+  padding-left: 0;
   list-style: none;
   color: #ffffff;
   font-size: 18px;
@@ -56,27 +58,24 @@ a, a:hover, a:visited, a:active {
 
 .section1 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
   align-items: center;
   padding: 100px 0;
   background-image: url(images/s1-bg.jpg);
   background-repeat: no-repeat;
-  background-size: fill;
+  background-size: cover;
+  background-position: center;
 }
 
 .s1-text{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
   align-items: center;
-  width: 550px;
-  height: auto;
+  width: 600px;
   padding: 15px;
-  margin: 0 15%;
+  margin: auto 20%;
   background-color: #293444d3;
   border-radius: 8px;
+  
 }
 
 .s1h1 {
