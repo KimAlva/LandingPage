@@ -29,7 +29,7 @@ body::-webkit-scrollbar{
 
 .h-title {
   font-family: 'Charm', cursive;
-  font-size: 20px;
+  font-size: 1.2rem;
   width: 250px;
   flex-grow: 1;
   text-align: center;
@@ -47,7 +47,7 @@ body::-webkit-scrollbar{
   padding-left: 0;
   list-style: none;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 a, a:hover, a:visited, a:active {
@@ -80,15 +80,16 @@ a, a:hover, a:visited, a:active {
 
 .s1h1 {
   color: #ffffff;
-  font-size: 45px;
+  font-size: 2.3rem;
   font-weight: 800;
   margin-bottom: 0;
 }
 
 .s1p {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 1.6rem;
   margin: 10px 0;
+  text-align: center;
 }
 
 .s1-btn {
@@ -108,7 +109,8 @@ a, a:hover, a:visited, a:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 20%;
+  padding: 0 auto;
+  
 }
 
 .s2-header {
@@ -124,6 +126,8 @@ a, a:hover, a:visited, a:active {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  max-width: 1300px;
+  gap: 10px;
 }
 
 .box {
@@ -131,14 +135,13 @@ a, a:hover, a:visited, a:active {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 10px;
 }
 
 .s2-img {
   border: 1px solid;
   color: #4545462a;
-  height: 300px;
-  width: 300px;
+  height: 320px;
+  width: 320px; 
   border-radius: 8%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -146,7 +149,7 @@ a, a:hover, a:visited, a:active {
 .img-info {
   text-align: center;
   margin-top: 8px;
-  font-size: 22px;
+  font-size: 1.6rem;
   font-weight: 200;
   color: #165bbb;
 }
@@ -165,7 +168,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .quote {
-  font-size: 36px;
+  font-size: 2.6rem;
   font-style: italic;
   font-weight: 100;
   color: #1F2937;
@@ -173,7 +176,7 @@ a, a:hover, a:visited, a:active {
 
 .author {
   font-weight: 900;
-  font-size: 18px;
+  font-size: 1.4rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -202,7 +205,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .s4-text h3 {
-  font-size: 24px;
+  font-size: 1.6rem;
   margin-bottom: 0;
 }
 
@@ -218,7 +221,7 @@ a, a:hover, a:visited, a:active {
   margin-left: 40px;
   padding: 8px 20px;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
