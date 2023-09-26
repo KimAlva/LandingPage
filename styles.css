@@ -131,7 +131,7 @@ a, a:hover, a:visited, a:active {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 20px;
+  margin: 10px;
 }
 
 .s2-img {
@@ -152,7 +152,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .section3 {
-  background-color: #E5E7EB;
+  background-color: #dee6f5;
   padding: 60px;
   display: flex;
   flex-direction: column;
@@ -161,8 +161,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .quote-box {
-  width: 780px;
-
+  min-width: 380px;
 }
 
 .quote {
@@ -186,7 +185,8 @@ a, a:hover, a:visited, a:active {
 .section4 {
   background-color: #1451b3;
   color: #E5E7EB;
-  width: 900px;
+  min-width: 60%;
+  max-width: 900px;
   border-radius: 8px;
   margin: 90px auto;
   padding: 20px 30px;
@@ -196,9 +196,9 @@ a, a:hover, a:visited, a:active {
 .s4-box {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: center;
 }
 
 .s4-text h3 {
@@ -215,6 +215,7 @@ a, a:hover, a:visited, a:active {
   color: #E5E7EB;
   border: 2px solid #E5E7EB;
   height: fit-content;
+  margin-left: 40px;
   padding: 8px 20px;
   border-radius: 8px;
   font-size: 16px;
